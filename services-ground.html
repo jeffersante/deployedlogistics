@@ -589,7 +589,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                        //$('#locationInfo').load('http://shipping.deployedlogistics.com/FreightServices/US/CA.html#!Ground-California');
                                        // getLocationInfo('CA');
 					var state = JSON.stringify(selectedRegions).substring(5,7);
-					window.location.href = "/ground-freight-shipping/" + convert_state(state, 'name').split(' ').join('-');
+					window.location.href = "ground-freight-shipping/" + convert_state(state, 'name').split(' ').join('-');
                                        
                                    }
                                 });
